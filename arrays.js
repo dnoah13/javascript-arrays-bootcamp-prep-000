@@ -38,3 +38,8 @@ function removeElementFromBeginningOfArray() {
   var teams = [1, 2, 3]
   return teams.slice(1)
 }
+
+function destructivelyRemoveElementFromEndOfArray(chocolateBars) {
+  chocolateBars.pop()
+  return chocolateBars
+}
