@@ -6,7 +6,6 @@ var ingredient5 = "tomato"
 var ingredient6 = "garlic"
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 var myArray = [1]
-var someArray = ['black', 'gray', 'white', 'blue']
 
 function addElementToBeginningOfArray(myArray) {
   return ['foo', ...myArray]
@@ -26,7 +25,8 @@ function destructivelyAddElementToEndOfArray(myArray) {
   return myArray
 }
 
-function accessElementInArray(someArray) {
-  var someColor = someArray[3]
+function accessElementInArray() {
+  var someArray = ['black', 'blue', 'red', 'green']
+  someColor = someArray[3]
   return someColor
 }
