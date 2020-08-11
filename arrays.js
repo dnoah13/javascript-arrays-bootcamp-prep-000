@@ -36,10 +36,14 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
 
 function removeElementFromBeginningOfArray() {
   var teams = [1, 2, 3]
-  return teams.slice(1)
+  return teams.slice(0)
 }
 
 function destructivelyRemoveElementFromEndOfArray(chocolateBars) {
   chocolateBars.pop()
   return chocolateBars
+}
+
+function removeElementFromEndOfArray(chocolateBars) {
+  chocolateBars.slice()
 }
