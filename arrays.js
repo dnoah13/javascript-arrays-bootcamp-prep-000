@@ -37,5 +37,4 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
 function removeElementFromBeginningOfArray() {
   var teams = ['Nuggets', 'Avalanche', 'Broncos', 'Rockies']
   return teams.slice(1)
-  return teams
 }
