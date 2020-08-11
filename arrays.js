@@ -27,6 +27,6 @@ function destructivelyAddElementToEndOfArray(myArray) {
 
 function accessElementInArray() {
   var someArray = ['black', 'blue', 'red', 'green']
-  someColor = someArray[3]
+  var someColor = someArray[3]
   return someColor
 }
